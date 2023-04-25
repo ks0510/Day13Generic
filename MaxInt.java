@@ -74,7 +74,7 @@ class MyGeneric<T> {
  * This is main class of program
  */
 
-public class MaxInteger {
+public class MaxInt {
 
 	/**
 	 * This is main method of program and starting point of program
