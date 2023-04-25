@@ -97,7 +97,7 @@ class GenericNew2<T> {
  * This is main class of program
  */
 
-public class MaxMultipleR1 {
+public class GenericMethod {
 
 	/**
 	 * This is main function of program and starting point of program
