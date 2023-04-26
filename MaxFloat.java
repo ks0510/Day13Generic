@@ -89,13 +89,32 @@ public class MaxFloat {
 		 * To generate generic class object
 		 */
 
-		GenericNew<Float> gen1 = new GenericNew<Float>(6.6f, 7.8f, 9.1f);
+		/*
+		 * For test case 1
+		 */
+
+		GenericNew<Float> gen1 = new GenericNew<Float>(9.1f, 7.8f, 6.8f);
+		
+		/*
+		 * For test case 2
+		 */
+		
+		GenericNew<Float> gen2 = new GenericNew<Float>(7.8f,9.1f, 6.8f);
+		
+		/*
+		 * For test case 3
+		 */
+		
+		GenericNew<Float> gen3 = new GenericNew<Float>(7.8f,6.8f,9.1f);
 
 		/*
 		 * To call out findMax method for maximum floating value
 		 */
 
 		System.out.println("The largest number is " + gen1.findMax(gen1.getT1(), gen1.getT2(), gen1.getT3()));
+		
+		System.out.println("The largest number is " + gen2.findMax(gen2.getT1(), gen2.getT2(), gen2.getT3()));
+		
+		System.out.println("The largest number is " + gen3.findMax(gen3.getT1(), gen3.getT2(), gen3.getT3()));
 	}
-
 }
